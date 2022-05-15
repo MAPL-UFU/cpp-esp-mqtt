@@ -1,3 +1,3 @@
 # mqtt-esp-wifi
 
-Standalone component for easy wifi connect configuration in esp32.
+Standalone component for iteracting with mqtt libs in esp32.
