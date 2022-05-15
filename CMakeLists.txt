@@ -1,7 +1,7 @@
 # Embed CA, certificate & key directly into binary
 idf_component_register(SRCS "MQTTEventHandler.cpp"
                     INCLUDE_DIRS "."
-                    REQUIRES esp-cpp-e-handler mqtt)
+                    REQUIRES cpp-esp-e-handler mqtt)
 
 
 set(CMAKE_CXX_STANDARD 17)
