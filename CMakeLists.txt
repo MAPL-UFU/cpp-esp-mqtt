@@ -1,5 +1,5 @@
 # Embed CA, certificate & key directly into binary
-idf_component_register(SRCS "MQTTEventHandler.cpp"
+idf_component_register(SRCS "WifiHandler.cpp"
                     INCLUDE_DIRS "."
                     REQUIRES cpp-esp-e-handler mqtt)
 
