@@ -68,8 +68,8 @@ Used to receive data from an specific topic
     event_data: data to be passed to event hendler
 
 These are internal functions used by MQTT for MQTT conections, but you can use this to increment intermediary steps 
-on conection. you can use it also to call a not normal step on the event loop, but the best use for this is to override
-this with a proper class.
+on conection. Keep in mind that these are static methods you can use it also to call a not normal step on the event loop, 
+but the best use for this is to override this with a proper class.
 
 <br>
 <br>
