@@ -4,10 +4,9 @@ Library used to iteract with esp32 mqtt iteraction:
 
 - extends [EventHandler](https://github.com/MAPL-UFU/cpp-esp-e-handler)
 
-## Class MQTTEventHandler:
+## **Class MQTTEventHandler:**
 
 Class that represents an mqtt connection: 
-
 
 ### Constructor   
    
@@ -20,7 +19,7 @@ Default Constructor
 
 
 
-### Methods:
+### <font color="yellow">Methods:</font>
 
 #### Connection Status
 
@@ -53,7 +52,7 @@ Used to receive data from an specific topic
 <br>
 <br>
 
-### Static Methods:
+### <font color="yellow">Static Methods:</font>
 
 #### Lifecycle Callers 
     - static void onEventConnected(void*, esp_event_base_t, int32_t, void*);
